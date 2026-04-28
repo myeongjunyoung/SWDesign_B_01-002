@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Customer {
         -String id
@@ -34,3 +35,4 @@ classDiagram
     %% 연관 관계
     Customer "1" -- "*" Reservation : makes >
     Room "1" -- "*" Reservation : is booked for >
+    ```
